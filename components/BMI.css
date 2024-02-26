@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    height:100vh;
+}
+.Parenet-Container{
+    background-color: rgb(39,37,37);
+    color:#ffffff;
+
+
+}
+.Container{
+    box-shadow: 0px 0px 15px 10px #2fcdb533;
+    background-color:rgb(28,28,28);
+    width:30%;
+    height:80vh;
+}
+.title{
+    margin:34px 0;
+    text-align: center;
+    color:white;
+
+}
+.labels{
+    font-size: 22px;
+    padding-left:30px;
+    color:#ffffff;
+}
+.bmi-input{
+    width:80%;
+    height:30px;
+    margin-left:33px;
+    margin-top:12px;
+}
+.btn{
+    width:25%;
+    font-size:1.2rem;
+    margin:20px 0 0 70px;
+
+}
+.result{
+    color:white
+}
+.p-msg{
+    color:green;
+}
